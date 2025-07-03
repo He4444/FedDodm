@@ -7,10 +7,12 @@ Abstract—Integrating personalization into federated learning is crucial for ad
 ```python
 cd ./system
 python main.py -data MNIST -m CNN -algo FedDomo -gr 2000 -did 0  # using the MNIST dataset, the FedDomo
+```
 
-## Generate Dataset
+## Generate Dataset：
 If you need to generate the corresponding dataset, run the following commands:
 ```python
 python generate_MNIST.py iid - -  # for IID and unbalanced scenario
 python generate_MNIST.py iid balance -  # for IID and balanced scenario
 python generate_MNIST.py noniid - pat  # for pathological Non-IID and unbalanced scenario
+```
