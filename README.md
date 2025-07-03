@@ -6,6 +6,7 @@ Abstract—Integrating personalization into federated learning is crucial for ad
 ## Usage:
 ```python
 cd ./system
+
 python main.py -data MNIST -m CNN -algo FedDomo -gr 2000 -did 0  # using the MNIST dataset, the FedDomo
 ```
 
