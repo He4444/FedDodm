@@ -12,6 +12,8 @@ python main.py -data MNIST -m CNN -algo FedDomo -gr 2000 -did 0  # using the MNI
 ## Generate Dataset：
 If you need to generate the corresponding dataset, run the following commands:
 ```python
+cd ./dataset
+
 python generate_MNIST.py iid - -  # for IID and unbalanced scenario
 python generate_MNIST.py iid balance -  # for IID and balanced scenario
 python generate_MNIST.py noniid - pat  # for pathological Non-IID and unbalanced scenario
